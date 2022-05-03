@@ -23,6 +23,20 @@ namespace HelloWorld
             if (x > y)
             {
                 Console.WriteLine("x is greater than y");
+            };
+            switch (x) {
+                case 1:
+                    Console.WriteLine("1 is Less Than 15");
+                    break;
+                case 5:
+                    Console.WriteLine("5 is Less Than 15");
+                    break;
+                case 15: 
+                    Console.WriteLine("15 is equal to 15");
+                    break;
+                case 20: 
+                    Console.WriteLine("20 is Greater than 15");
+                    break;
             }
         }
     }
